@@ -69,3 +69,14 @@ The homepage hero now features:
 6. To update the live website, commit and push changes to `main`; Vercel deploys automatically.
 
 **Note:** Publishing requires access to your GitHub and Vercel accounts; the ZIP alone is not a public website.
+
+
+## Portfolio images (October 2026 update)
+
+- `public/images/profile.jpg`: supplied portrait, used by the hero and About page.
+- `public/images/projects/maintenance-health.png`: branded cover containing a **real screenshot** of the Streamlit dashboard.
+- `public/images/projects/viking-chess.png`: branded cover containing a **real screenshot** of Hnefatafl AI.
+- `public/images/projects/game-vault.png`: **illustrative concept**, not a real Game Vault screenshot.
+- `public/images/projects/tic-tac-toe.png`: **illustrative concept**, not a real Tic Tac Toe screenshot.
+
+Both the project gallery and the case-study pages display these images, with source labels. To replace a cover, replace the matching PNG at the same path and commit. Vercel redeploys on a push to `main`.
