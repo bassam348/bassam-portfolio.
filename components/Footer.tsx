@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export default function Footer(){return <footer className="footer"><div className="shell footer-inner"><div><strong>Bassam Ashraf</strong><p>AI • Data Analytics • Software Engineering</p></div><div><Link href="/contact">Get in touch ↗</Link><a href="mailto:bassam.ashraf.cs@gmail.com">Email ↗</a></div><span>© {new Date().getFullYear()} Bassam Ashraf</span></div></footer>}
